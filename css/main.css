@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+*{
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    margin:0;
+    padding:0;
+    background-color: hsl(216, 12%, 8%);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor1{
+    width: 400px;
+    height: 400px;
+    padding:2rem;
+    border-radius: 20px;
+    font-family: sans-serif,'Overpass';
+    background-image: linear-gradient(#1f2630, #171e28);
+    
+}
+.contenedor2{
+    width: 400px;
+    height: 400px;
+    padding:2rem;
+    border-radius: 20px;
+    font-family: sans-serif,'Overpass';
+    background-image: linear-gradient(#1f2630, #171e28);
+}
+main ul.rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+main ul li button.boton{
+    width: 50px;
+    height: 50px;
+    padding:1rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border: none;
+    color:hsl(217, 12%, 63%);
+    font-weight: bold;
+    font-size: 15px;
+    background-color:#272e38 ;
+    transition: background-color .5s;
+    cursor: pointer;
+}
+.boton:hover{
+    background-color: #fc7613;
+    color: white;
+}
+.boton:focus{
+    background-color: #fc7613;
+    color: white;
+}
+img.imagen{
+    background-color:#272e38;
+    padding:.8rem;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+img.gracias{
+    display: block;
+    margin: 0 auto 2rem;
+}
+h1.title{
+    color:white;
+    font-size: 25px;
+    margin-top: 20px;
+}
+p.texto{
+    color:hsl(217, 12%, 63%);
+    line-height: 25px;
+    margin-top: 5px;
+}
+.agradecer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+p.seleccion{
+    padding: .5rem 1.5rem .5rem 1.5rem;
+    background-color: #272e38;
+    color: #fc7613;
+    margin: 0;
+    font-size: 14px;
+    border-radius: 20px;
+}
+input.enviar{
+    width: 100%;
+    padding: .8rem;
+    border-radius: 30px;
+    border: none;
+    background-color: #fc7613;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color .5s;
+}
+.enviar:hover{
+    background-color: white;
+    color: #fc7613;
+}
+p#texto2{
+    margin-top:-1rem;
+}
+input#submit2{
+    margin-top:-.5rem;
+}
+/*js
+display: none;*/
+.hidden.contenedor1{
+    display: none;
+}
+.hidden.contenedor2{
+    display: none;
+}

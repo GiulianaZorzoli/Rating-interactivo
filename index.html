@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <script defer src="js/main.js"></script>
+  </style>
+</head>
+<body>
+  <main class="principal">
+    <article class="contenedor1">
+      <img src="images/icon-star.svg" alt="Estrella" class="imagen">
+      <h1 class="title">How did we do?</h1>
+      <p class="texto">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+      <ul class="rating">
+        <li><button class="boton">1</button></li>
+        <li><button class="boton">2</button></li>
+        <li><button class="boton">3</button></li>
+        <li><button class="boton">4</button></li>
+        <li><button class="boton">5</button></li>
+      </ul>
+      <input type="submit" class="enviar" id="submit1"value="SUBMIT">
+    </article>
+    <article class="contenedor2 hidden">
+      <img src="images/illustration-thank-you.svg" alt="thank you" class="gracias">
+      <div class="agradecer">
+        <p class="seleccion">You selected <span id="num">5</span> out of 5</p>
+        <h1 class="title" >Thank you!</h1>
+        <p class="texto"id="texto2">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+        <input type="submit"class="enviar" id="submit2" value="RATE AGAIN">
+      </div>
+      
+    </article>
+    
+  </main>
+
+  
+
+</body>
+</html>
